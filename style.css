@@ -1,0 +1,322 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 600;
+    width: 1200px;
+}
+/* nav section  */
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   margin: 30px 0;
+   padding-left: 350px;
+}
+ul li{
+    display: inline-block;
+   margin: 0px 20px;
+   color: hsl(252deg 5% 81%);
+   font-size: 18px;
+  
+}
+.navbar ul{
+padding-right: 100px;
+}
+.heading{
+    color: hsl(0deg 87% 58%);
+    transition: background-color 300ms;
+}
+.heading-2{
+    text-align: center;
+    margin-top: 120px;
+}
+.heading-2 h2{
+    padding: 20px 0;
+    font-size: 40px;
+    color:hsl(249deg 15% 35%);
+}
+.heading-2 h4{
+padding: 10px 0;
+font-size: 20px;
+color: hsl(251deg 8% 74%);
+}
+.heading-2 .btn-discover{
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border: 3px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0deg 86% 66%);
+    background: none;
+}
+.heading-2 .btn-discover:hover{
+    color: blue;
+    text-decoration: underline;
+    background-color: white;
+}
+/* home section */
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 200px;
+   text-align: center;
+   flex-basis: 30%;
+}
+.home img{
+    width: 250px;
+    height: 200px;
+}
+.home p{
+    font-size: 18px;
+    color: hsl(251deg 8% 74%);
+}
+/* section newsletter */
+.newsletter-sec{
+    text-align: center;
+    background-color: hsl(216deg 45% 98%); 
+    margin-top: 30px;
+}
+.fa-desktop{
+    text-align: start;
+   font-size: 80px;
+   margin-left: -175px;
+   color:hsl(0deg 87% 52%);
+   opacity: 0.1;
+   position: absolute;
+   overflow: hidden;
+}
+.fa-home{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.fa-chart-bar{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.fa-yin-yang{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.fa-map-marked-alt{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.fa-mug-hot{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.fa-lightbulb{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.fa-list-alt{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.fa-code{
+    text-align: start;
+    font-size: 80px;
+    margin-left: -175px;
+    color:hsl(0deg 87% 52%);
+    opacity: 0.1;
+    position: absolute;
+    overflow: hidden;
+}
+.box i{
+ margin-right: 80px;
+}
+.newsletter-sec h1{
+    color: hsl(247deg 13% 37%);
+   padding: 30px 0;
+}
+.newsletter-sec h2{
+    color: hsl(247deg 13% 37%);
+}
+.newsletter{
+    display: flex;
+   justify-content: center;
+   
+}
+.newsletter .box{
+    width: 350px;
+    height: 300px;
+    border: 1px solid;
+   background-color: white;
+    margin: 20px 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.newsletter span {
+    color: hsl(252deg 6% 85%);
+}
+.newsletter p{
+    color: hsl(245deg 8% 74%);
+    padding: 0 10px;
+   
+}
+.newsletter a{
+    color: hsl(0deg 86% 67%);
+    text-decoration: underline;
+    font-size: 16px;
+}
+.newsletter button{
+    background-color:hsl(0deg 87% 52%);
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    border: transparent;
+}
+.newsletter-sec p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(245deg 8% 74%);
+    line-height: 30px;
+}
+.newsletter-sec span{
+color: hsl(244deg 9% 69%);
+font-size: 14px;
+}
+/* other newsletter */
+.o-newsletter-sec{
+    text-align: center;
+    background-color: hsl(216deg 45% 98%); 
+    padding: 30px 0;
+}
+.o-newsletter-sec h1{
+    color: hsl(247deg 13% 37%);
+    padding: 50px 0;
+}
+.o-newsletter-sec h2{
+    color: hsl(247deg 13% 37%);
+}
+.o-newsletter{
+    display: flex;
+   justify-content: center;
+   
+}
+.o-newsletter .box{
+    width: 350px;
+    height: 300px;
+    border: 1px solid;
+   background-color: white;
+    margin: 20px 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.o-newsletter span {
+    color: hsl(252deg 6% 85%);
+}
+.o-newsletter p{
+    color: hsl(245deg 8% 74%);
+    padding: 0 10px;
+}
+.o-newsletter a{
+    color: hsl(0deg 86% 67%);
+    text-decoration: underline;
+    font-size: 16px;
+}
+.o-newsletter button{
+    background-color:hsl(0deg 87% 52%);
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    border: transparent;
+}
+/* team section starts here */
+.team{
+   text-align: center;
+   /* display: flex; */
+   margin: 60px 0;
+   line-height: 30px;
+}
+.fa-heart{
+    color: hsl(4deg 99% 59%);
+}
+.team h1{
+    padding-bottom: 20px;
+    color: hsl(250deg 11% 41%);
+}
+.team p{
+    color: hsl(251deg 9% 62%);
+    font-weight: 600;
+}
+.colums{
+    display: flex;
+   justify-content: center;
+}
+.team .col-1{
+    margin: 50px;
+}
+.team .col-2{
+    margin:50px;
+}
+.team h2{
+   color:hsl(252deg 8% 51%) ; 
+   font-weight:600;
+   font-size: 18px;
+}
+.team h5{
+    color: hsl(255deg 5% 84%);
+    font-weight: 600;
+}
+.team a{
+    text-decoration: none;
+    color: hsl(0deg 87% 76%);
+    font-size: 14px;
+    font-weight:600 ;
+}
+.team img{
+    width: 60px;
+    height: 50px;
+    border-radius:100%;
+}
+
+/* footer section  */
+.footer{
+    text-align: center;
+    padding: 50px 0;
+    background-color: hsl(216deg 45% 98%);
+}
